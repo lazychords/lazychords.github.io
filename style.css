@@ -1,0 +1,57 @@
+body{
+	background-color: black;
+	color: #dddddd;
+	font-family: "Gill sans MT", "Lucida sans", arial, Verdana, "Times new Roman"
+}
+
+.choix_langue{
+    position: absolute;
+    right: 5px;
+}
+
+.choix_langue img{
+	cursor: pointer;
+}
+
+header{
+	text-align: center;
+	border-bottom: 1px dotted white;
+	padding-bottom: 5px;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 5px;
+}
+
+.navigation{
+	width: 100%;
+	
+}
+
+.navi{
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navi a{
+	color: #dddddd;
+	text-decoration: none;
+}
+
+.navi a:hover{
+	color: white;
+}
+
+#selected{
+background-image: url('img/selected.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.bold{
+	font-weight: bold;
+}
